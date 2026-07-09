@@ -1,0 +1,6 @@
+{
+  "name": "Kit Petições Premium",
+  "description": "Página de vendas profissional para o Kit de Petições Prontas e Atualizadas para Advogados Trabalhistas e Previdenciários.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
