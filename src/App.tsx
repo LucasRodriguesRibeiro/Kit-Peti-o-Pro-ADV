@@ -14,8 +14,13 @@ import {
   Coins
 } from 'lucide-react';
 
+import mockupImage from './assets/images/petitions_mockup_1783604482020.jpg';
+import screenshot8 from './assets/images/Screenshot (8).png';
+import screenshot9 from './assets/images/Screenshot (9).png';
+import screenshot10 from './assets/images/Screenshot (10).png';
+
 // Image reference from generation tool
-const MOCKUP_IMAGE = '/src/assets/images/petitions_mockup_1783604482020.jpg';
+const MOCKUP_IMAGE = mockupImage;
 
 // FAQ items data matching user style preference
 const FAQ_ITEMS = [
@@ -502,7 +507,7 @@ export default function App() {
             >
               <div className="overflow-hidden rounded-lg sm:rounded-xl bg-slate-50 flex items-center justify-center">
                 <img 
-                  src="/src/assets/images/Screenshot (8).png" 
+                  src={screenshot8} 
                   alt="Depoimento de Cliente 1" 
                   className="w-full h-auto max-h-[190px] sm:max-h-[320px] md:max-h-[440px] object-contain"
                   referrerPolicy="no-referrer"
@@ -524,7 +529,7 @@ export default function App() {
             >
               <div className="overflow-hidden rounded-lg sm:rounded-xl bg-slate-50 flex items-center justify-center">
                 <img 
-                  src="/src/assets/images/Screenshot (9).png" 
+                  src={screenshot9} 
                   alt="Depoimento de Cliente 2" 
                   className="w-full h-auto max-h-[190px] sm:max-h-[320px] md:max-h-[440px] object-contain"
                   referrerPolicy="no-referrer"
@@ -546,7 +551,7 @@ export default function App() {
             >
               <div className="overflow-hidden rounded-lg sm:rounded-xl bg-slate-50 flex items-center justify-center">
                 <img 
-                  src="/src/assets/images/Screenshot (10).png" 
+                  src={screenshot10} 
                   alt="Depoimento de Cliente 3" 
                   className="w-full h-auto max-h-[190px] sm:max-h-[320px] md:max-h-[440px] object-contain"
                   referrerPolicy="no-referrer"
